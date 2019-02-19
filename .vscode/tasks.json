@@ -1,0 +1,15 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "${workspaceFolder}/src/KnitIndustries.KnitRider.Devon.Server/KnitIndustries.KnitRider.Devon.Server.csproj"
+            ],
+            "problemMatcher": "$msCompile"
+        }
+    ]
+}
